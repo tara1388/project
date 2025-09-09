@@ -1,0 +1,32 @@
+#age
+age=int(input('enter your age:'))
+if 1<=age<6:
+    print("you are infant")
+elif 6<=age<18:
+    print("you are teenager")
+elif 18<=age<45:
+    print("you are young")
+elif 45<=age<=60:
+    print("you are middle-age")
+else:
+    print("you are old")
+
+#finding words that start with s
+names=['sara','melina','sahar','sogand','raha']
+for name in names:
+    if name[0] == 's':
+        print(f'the first character of the name {name} is s')
+
+
+
+#number in string
+my_str=input("my_str:")
+my_list=[]
+for char in my_str:
+    if char.isnumeric() :
+        print(char)
+
+
+
+
+
